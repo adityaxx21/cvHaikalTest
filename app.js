@@ -42,7 +42,7 @@ app.get("/orders", async (req, res) => {
 // User make order by input username and distance
 app.post("/orders", async (req, res) => {
   try {
-    const date = moment().format("yyyy-DD-mm hh:mm:ss");
+    const date = moment().format("yyyy-M-DD hh:mm:ss");
     const { distance, username } = req.body;
 
     let user = await knex("users").where("username", username).first();
