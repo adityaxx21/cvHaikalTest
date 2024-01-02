@@ -1,0 +1,18 @@
+make an app to order online driver 
+requirement :
+- 10000 every km
+- 5% disc when over 50km
+- 10% disc when over 100km
+- 20% when user order over 2x
+- 30% when oreder over 5x  with 10% tax
+
+How to do:
+- data can be saved into database with username as user
+- when user order, save data into transaction
+- record every order on transaction table
+
+Initialization:
+- init nodejs
+- install nodeenv
+- install knex for db ORM
+
